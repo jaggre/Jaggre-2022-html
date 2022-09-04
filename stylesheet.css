@@ -183,7 +183,8 @@ footer {
 }
 .static-nav-logo{
     display: inline-block;
-    max-height: 1.5rem;
+    max-height: 1.75rem;
+    padding-bottom: .2rem;
     
 
 }
