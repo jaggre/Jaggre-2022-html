@@ -15,6 +15,9 @@
     .profile-picture {
         max-width: 6rem;
     }
+    div .container .container-mini {
+        display: flex;
+    }
     
  }
  @media (min-width: 350px) { 
@@ -64,8 +67,8 @@
     div .container-left {
         display: flex;
     }
-    .container-mini {
-        visibility: hidden;
+    div .container .container-mini {
+        display: none;
     }
     .profile-picture {
         max-width: 16rem;
@@ -197,10 +200,15 @@ footer {
     white-space:nowrap;
 }
 
+.container-row{
+    padding: 1rem;
+}
+
 .container-mini{
     padding-top: 0.5rem;
-    display: flex;
+    /* display: flex; */
     justify-content: space-evenly;
+    /* display: none; */
 }
 
 
