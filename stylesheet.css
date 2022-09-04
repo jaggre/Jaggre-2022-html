@@ -9,6 +9,12 @@
     div img.header-logo{
         visibility: hidden;
     }
+    div .container-left {
+        display: none;
+    }
+    .profile-picture {
+        max-width: 6rem;
+    }
     
  }
  @media (min-width: 350px) { 
@@ -19,31 +25,73 @@
     div img.header-logo{
         visibility: hidden;
     }
+    div .container-left {
+        display: none;
+    }
+    .profile-picture {
+        max-width: 16rem;
+    }
     
  }
 
 /* // Medium devices (tablets, 768px and up) */
 
+@media (max-width: 450px) { 
+    div ul.home-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    div img.header-logo{
+        visibility: hidden;
+    }
+    div .container-left {
+        display: none;
+    }
+    .profile-picture {
+        max-width: 6rem;
+    }
+    
+ }
+
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 
     div ul.home-menu{
         display: flex;
         flex-direction: row;
     }
-    
+    div .container-left {
+        display: flex;
+    }
+    .container-mini {
+        visibility: hidden;
+    }
+    .profile-picture {
+        max-width: 16rem;
+    }
   }
+
+/* @media (max-width:520px){
+    img .profile-picture{
+    }
+} */
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 992px) {
 
     div img.header-logo{
         visibility: visible;
+
+    }
+    .profile-picture {
+        max-width: 16rem;
     }
  }
 
 
+
+ 
 body{
     background-color: darkcyan;
     background-image: url('img/bg-patt.png') ;
@@ -52,6 +100,7 @@ body{
 
 a{
     text-decoration: none;
+    color: #006666;
 }
 
 .navbar {
@@ -59,11 +108,16 @@ a{
     margin-right: 2em;
     margin-bottom: 1em;
 }
+.nav-link{
+    color: #006666;
+}
+
 .body-stuff {
     /* width: 50px;
     height: 50px; */
     /* Center horizontally*/
     margin: 0 auto;
+    margin-top: 1.5rem;
     padding-left: 4em;
     padding-right: 4em;
     max-width: 66rem;
@@ -81,7 +135,13 @@ a{
     max-width: 36rem;
 } */
 
+.card{
+    border: 3px solid #d1d0d5;
+    
+}
+
 .card-header {
+    display: block;
     background-color: #006666;
 }
 
@@ -118,6 +178,33 @@ footer {
     border: 0;
     align-items: center;
 }
+.static-nav-logo{
+    display: inline-block;
+    max-height: 1.5rem;
+    
+
+}
+
+
+
+    a .static-active{
+    font-weight: 900;
+}
+
+
+.nav-pills .nav-link.active{
+    background-color: #006666;
+    white-space:nowrap;
+}
+
+.container-mini{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
 
 .splashcontent { 
 margin-top: 0.5rem;
@@ -125,7 +212,7 @@ background-color: white;
 }
 
 .working-title{
-    padding-left: 1rem;
+    padding-left: 2rem;
     justify-content: center;
 }
 
@@ -172,3 +259,13 @@ background-color: white;
     from {transform: rotate(0deg);}
     to {transform: rotate(-360deg);}
 }
+
+.profile-picture {
+    display: flex;
+    width: auto;
+    height: auto;
+    border: lightcyan .5rem ;
+    border-style:ridge;
+    justify-content: center;
+  }
+  
