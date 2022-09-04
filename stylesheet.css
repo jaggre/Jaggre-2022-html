@@ -2,6 +2,10 @@ body{
     background-color: darkcyan;
 }
 
+a{
+    text-decoration: none;
+}
+
 .navbar {
     margin-left: 2em;
     margin-right: 2em;
@@ -51,4 +55,58 @@ footer {
 .crop img {
     width: 400px;
     height: 300px;
+}
+
+.splashcontent {
+margin-left: 1rem; 
+margin-top: 0.5rem;
+background-color: white;
+}
+
+.working-title{
+    align-items: center;
+}
+
+.home-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: .75rem;
+}
+
+.home-img{
+    display: block;
+    max-width: 10rem;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.home-img:hover{
+    animation-name: rotate; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.home-img2{
+    display: block;
+    max-width: 10rem;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.home-img2:hover{
+    animation-name: rotate2; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate2 {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-360deg);}
 }
