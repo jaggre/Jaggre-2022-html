@@ -1,3 +1,6 @@
+html{
+    cursor: url('logo.png');
+}
 body{
     background-color: darkcyan;
 }
@@ -78,7 +81,7 @@ background-color: white;
     display: block;
     max-width: 10rem;
     transition-property: transform;
-    transition-duration: 1s;
+    transition-duration: 1s ease;
 }
 
 .home-img:hover{
