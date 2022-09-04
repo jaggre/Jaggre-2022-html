@@ -1,6 +1,52 @@
 
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 350px) { 
+    div ul.home-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    div img.header-logo{
+        visibility: hidden;
+    }
+    
+ }
+ @media (min-width: 350px) { 
+    div ul.home-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    div img.header-logo{
+        visibility: hidden;
+    }
+    
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 600px) {
+
+    div ul.home-menu{
+        display: flex;
+        flex-direction: row;
+    }
+    
+  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+
+    div img.header-logo{
+        visibility: visible;
+    }
+ }
+
+
 body{
     background-color: darkcyan;
+    background-image: url('img/bg-patt.png') ;
 
 }
 
