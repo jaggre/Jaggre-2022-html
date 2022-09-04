@@ -1,8 +1,7 @@
-html{
-    cursor: url('logo.png');
-}
+
 body{
     background-color: darkcyan;
+
 }
 
 a{
@@ -60,14 +59,28 @@ footer {
     height: 300px;
 }
 
-.splashcontent {
-margin-left: 1rem; 
+.header-bar{
+    display: flex;
+    background-color: #006666;
+}
+
+.header-logo{
+    display: flex;
+    max-height: 3rem;
+    padding: 0.25rem 0.25rem;
+    padding-top: 0.5rem;
+    border: 0;
+    align-items: center;
+}
+
+.splashcontent { 
 margin-top: 0.5rem;
 background-color: white;
 }
 
 .working-title{
-    align-items: center;
+    padding-left: 1rem;
+    justify-content: center;
 }
 
 .home-menu{
