@@ -171,7 +171,9 @@ a{
     text-decoration: none;
     color: #006666;
 }
-
+.container {
+    margin-top: 0.15em;
+}
 .navbar {
     margin-left: 2em;
     margin-right: 2em;
