@@ -22,7 +22,10 @@
         padding-left: 0.5em;
         padding-right: 0.5em;
     }
-    
+    .working-title{
+        display: flex;
+        justify-content: center;
+    }
  }
  @media (min-width: 350px) { 
     div ul.home-menu{
@@ -42,7 +45,10 @@
         padding-left: 0.5em;
         padding-right: 0.5em;
     }
-    
+    .working-title{
+        display: flex;
+        justify-content: center;
+    }
  }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -65,7 +71,10 @@
         padding-left: 2em;
         padding-right: 2em;
     }
-    
+    .working-title{
+        display: flex;
+        justify-content: center;
+    }
  }
 
 
@@ -88,6 +97,10 @@
     .body-stuff{
         padding-left: 8em;
         padding-right: 8em;
+    }
+    .working-title{
+        display: flex;
+        justify-content: center;
     }
   }
 
