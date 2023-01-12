@@ -108,6 +108,7 @@
     div ul.home-menu{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     div.container-left {
         display: flex;
@@ -147,6 +148,13 @@
     }
     .profile-picture {
         max-width: 16rem;
+    }
+    div ul.home-menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul.home-menu li{
+        margin: 2em;
     }
  }
 
@@ -344,7 +352,14 @@ background-color: white;
     justify-content: center;
   }
   
-  a.inactive:hover{
+  a:hover{
     color:#006666;
     font-weight: bolder;
+  }
+  a.nav-link:hover{
+    color:#006666;
+    font-weight: bolder;
+  }
+  a.active:hover{
+    font-weight: inherit;
   }
