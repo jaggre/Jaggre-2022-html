@@ -33,6 +33,7 @@
     .working-title{
         display: flex;
         justify-content: center;
+        padding-left: 0;
     }
  }
  @media (min-width: 350px) { 
@@ -61,7 +62,7 @@
         padding-left: 0.5em;
         padding-right: 0.5em;
     }
-    .working-title{
+    p.working-title{
         display: flex;
         justify-content: center;
         padding-left: 0;
@@ -125,7 +126,7 @@
         padding-left: 8em;
         padding-right: 8em;
     }
-    .working-title{
+    p.working-title{
         display: flex;
         justify-content: center;
         padding-left: 0;
