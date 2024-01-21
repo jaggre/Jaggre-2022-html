@@ -173,12 +173,20 @@ a{
 }
 .container {
     margin-top: 0.15em;
+    margin-bottom: 0.5em;
 }
 .navbar {
     margin-left: 2em;
     margin-right: 2em;
     margin-bottom: 1em;
 }
+
+footer div.footer {
+    padding-top: 0.45em;
+    text-align: center;
+    padding-bottom: 0.55em;
+}
+
 .nav-link{
     color: #006666;
 }
@@ -224,9 +232,6 @@ div.clipart {
         color: #FFFFFF;
     }
 
-footer {
-    text-align: center;
-}
 
 
 .crop {
