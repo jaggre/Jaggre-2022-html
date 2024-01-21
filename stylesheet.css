@@ -354,6 +354,13 @@ background-color: white;
     justify-content: center;
   }
   
+  a.card-link:hover{
+    font-weight: normal;
+    }
+    a.card-link.active:hover{
+        font-weight: normal;
+    }
+
   a:hover{
     color:#006666;
     font-weight: bolder;
@@ -366,6 +373,3 @@ background-color: white;
     font-weight: inherit;
 }
 
-a.card-link:hover{
-    font-weight: normal;
-}
