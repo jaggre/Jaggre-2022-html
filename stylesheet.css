@@ -364,4 +364,8 @@ background-color: white;
   }
   a.active:hover{
     font-weight: inherit;
-  }
+}
+
+a.card-link:hover{
+    font-weight: normal;
+}
